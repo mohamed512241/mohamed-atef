@@ -1,0 +1,230 @@
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    font-family: ;
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    animation-name: x;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+@keyframes x{
+    from{
+        background: yellow;
+        width: 0;
+    }
+    to{
+    background: #3a6cf4;
+    width: 50%;
+    }
+}
+.navigation a{
+    text-decoration: none;
+    color: #3a6cf4;
+    padding-left: 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 10bx;
+    transition: 0.5s ease;
+}
+.navigation a:hover{
+    color: #601cfc;    
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 35%;
+    background-color: #000111;
+    background-position: 700px center;
+    background-attachment: fixed;
+    
+}
+.main h2{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 0px 1000px;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 2.90em;
+    font-weight: 700;
+}
+.main h3{
+    color: white;
+    font-size: 1.90em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+.main-btn{
+    color: white;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 1s ease;
+}
+.main-btn:hover{
+    color: #0a49f6;
+    transform: scale(1.1);
+}
+.social-icons{
+    color: white;
+    font-size: 1.8em;
+    padding-right: 30px;
+    display: flex;
+    gap: 20px;
+}
+.social-icons a{
+    color: white;
+    transition: 1s ease;
+}
+.social-icons a:hover{
+    color: #3a6cf4;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+    max-width: 210px;
+    min-height: 1em;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #3a6cf4;
+    font-size: 6em;
+    text-align: center;
+}
+
+
+.info{
+    text-align: center;
+    text-transform: capitalize; 
+    min-height: 10em;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.Projects{
+    background-color: #000016;
+    text-transform: capitalize;
+}
+.Projects .content{
+    margin-top: 30px;
+.project-card{
+    background-color: #fff;
+    border: 1PX solid #fff;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 2px;
+    margin: 20px;
+    transition: 0.7s ease;
+    max-width: 200px;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-image img{
+    width: 100%;
+    max-height: 200px;
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+    margin:10px;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 118px;
+    margin-top: 18px;
+}
+.more-details:hover{
+    color: #601cfc;
+}
+
+.cards-contact .icon{
+    font-size: 4.5em;
+}
+.cards-contact .info h3{
+    color: #000;
+}
